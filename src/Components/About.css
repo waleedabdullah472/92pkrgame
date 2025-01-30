@@ -1,0 +1,119 @@
+/* General Styling */
+.main-content {
+  padding: 20px;
+  font-family: sans-serif; /* Use a more modern font stack */
+  background-color: #f4f4f4;
+  min-height: 100vh; /* Ensure full viewport height */
+  display: flex; /* Center content vertically */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+}
+
+.content-card {
+  max-width: 800px;
+  width: 90%; /* Occupy most of the screen on smaller devices */
+  margin: 20px auto; /* Add some top/bottom margin */
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 12px; /* More rounded corners */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Softer shadow */
+  overflow: hidden; /* Prevents issues with floated elements */
+}
+
+h2 {
+  color: #2d3e50;
+  font-size: 2.2em; /* Slightly larger heading */
+  margin-bottom: 25px;
+  text-align: center; /* Center the main heading */
+}
+
+h3 {
+  color: #f0f0f0;
+  font-size: 1.7em; /* Slightly larger subheading */
+  margin-top: 25px;
+  margin-bottom: 15px; /* Add bottom margin to subheadings */
+  text-align: center;
+  background-color:#18b660 ;
+  padding: 1.5%;
+}
+
+p {
+  color: #555;
+  line-height: 1.7; /* Improved line height */
+  font-size: 1.1em; /* Slightly larger font size */
+  margin-bottom: 18px; /* Increased margin between paragraphs */
+}
+
+ul {
+  list-style-type: disc; /* Use bullet points */
+  padding-left: 20px; /* Add left padding for list items */
+  margin-bottom: 20px; /* Add margin to the bottom of the list */
+}
+
+ul li {
+  font-size: 1.1em;
+  margin-bottom: 12px;
+}
+
+ul li strong {
+  color: #2d3e50;
+  font-weight: 600; /* Use a slightly lighter bold */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .content-card {
+      padding: 25px;
+  }
+
+  h2 {
+      font-size: 2em;
+  }
+
+  h3 {
+      font-size: 1.5em;
+  }
+
+  p {
+      font-size: 1em;
+  }
+
+  ul {
+      padding-left: 15px;
+  }
+}
+
+
+/* Shape Changes (Examples) */
+
+/* 1. Subtle Background Gradient on Card */
+.content-card {
+  background: linear-gradient(to bottom, #ffffff, #f9f9f9);
+}
+
+/* 2.  Slightly Angled Corners (Subtle) */
+.content-card {
+  border-radius: 15px; /* Increased border radius */
+}
+
+/* 3.  Adding a Border */
+.content-card {
+  border: 1px solid #eee;
+}
+
+/* 4.  Using a different font */
+body { /* Apply to the whole body */
+  font-family: 'Open Sans', sans-serif; /* Or any other font you like */
+}
+
+/* 5.  Change the color scheme */
+body {
+  color: #333; /* Darker text color */
+  background-color: #f0f0f0; /* Lighter background */
+}
+h2, h3, ul li strong {
+ /* Slightly darker heading color */
+}
+.content-card {
+  background-color: #fff; /* White card background */
+}

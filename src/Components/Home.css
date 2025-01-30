@@ -1,0 +1,609 @@
+
+.hero {
+  /* ... other styles ... */
+}
+
+.hero-content {
+  /* ... other styles ... */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-row-1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.hero-row-2 {
+  display: flex;
+  align-items: flex-start; /* Align items to the top of the container */
+  gap: 20px;
+}
+
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.hero-image {
+  max-width: 250px;
+  margin-bottom: 10px;
+}
+
+.hero-version, .hero-size {
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.hero-right {
+  flex: 1; /* Allows the right side to take up available space */
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center; /* Center the buttons horizontally */
+  gap: 20px; /* Increased gap between buttons */
+  margin-top: 20px;
+}
+
+.download-button, .download-jeeto-button {
+  padding: 15px 30px; /* Increased padding */
+  font-size: 1.2em; /* Increased font size */
+  border: none;
+  border-radius: 8px; /* More rounded corners */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Add a transition for hover effect */
+}
+
+.download-button {
+  background-color: #007bff;
+  color: white;
+}
+
+.download-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+
+.download-jeeto-button {
+  background-color: #28a745;
+  color: white;
+}
+
+.download-jeeto-button:hover {
+  background-color: #1e7e34; /* Darker green on hover */
+}
+
+
+@media (max-width: 768px) {
+  .hero-row-2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-right {
+    text-align: center;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+  padding: 20px;
+  background: linear-gradient(to bottom right, #e8f5e9, #ffffff); /* Very light green to white gradient */
+}
+
+.about-content {
+  width: 80%;
+  max-width: 900px;
+  text-align: center;
+}
+
+.game-info-table {
+  display: inline-block;
+  margin: 0 auto;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 2px solid #4caf50; /* Green border */
+  border-radius: 12px; /* More rounded corners */
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Softer, more diffuse shadow */
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out; /* Transition for box-shadow too */
+  background: linear-gradient(to bottom, #ffffff, #f1f8e9); /* Very light green gradient for the table */
+}
+
+.game-info-table:hover {
+  transform: translateY(-8px); /* More pronounced lift */
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2); /* More prominent shadow on hover */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 18px 22px; /* Increased padding */
+  text-align: left;
+  border: none;
+  background-color: transparent;
+  font-weight: normal;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+th {
+  font-weight: 600;
+  color: #ffffff;
+  background: linear-gradient(to right, #388e3c, #4caf50); /* Green gradient for header */
+  text-transform: uppercase;
+  letter-spacing: 1px; /* Slightly increased letter spacing */
+}
+
+tr:nth-child(even) {
+  background-color: rgba(76, 175, 80, 0.05); /* Very subtle green for even rows */
+}
+
+tr:hover {
+  background-color: rgba(76, 175, 80, 0.1); /* Light green hover with transparency */
+  color: #2e7d32; /* Darker green text on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .about-content {
+      width: 95%;
+  }
+
+  .game-info-table {
+      display: block;
+      width: 95%;
+      margin: 10px auto;
+      border-radius: 10px; /* Slightly less rounded on mobile */
+  }
+
+  th,
+  td {
+      display: block;
+      width: 100%;
+      box-sizing: border-box;
+      padding: 12px 16px; /* Adjusted padding */
+  }
+
+  th {
+      text-align: left;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contact {
+  padding: 20px; /* Adjust padding as needed */
+  background-color: #f0f0f0; /* Example background color */
+}
+
+.contact-content {
+  max-width: 900px; /* Adjust max width as needed */
+  margin: 0 auto; /* Center the content */
+}
+
+.contact h2 {
+  color: #333; /* Example heading color */
+  margin-bottom: 10px; /* Adjust margin as needed */
+}
+
+.contact p {
+  color: #666; /* Example paragraph color */
+  line-height: 1.6; /* Improve readability */
+  margin-bottom: 15px; /* Adjust margin as needed */
+}
+
+/* Style for lists (if you use any) */
+.contact ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+.contact li {
+  margin-bottom: 5px;
+}
+
+
+/* Example styling for a button (if you have one) */
+.contact button {
+  background-color: #007bff; /* Example button color */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact button:hover {
+  background-color: #0056b3; /* Darker color on hover */
+}
+
+/* Responsive adjustments (example) */
+@media (max-width: 768px) {
+  .contact-content {
+      padding: 10px;
+  }
+}
+
+/* Style the table for rebate ratios */
+.contact table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px; /* Add some spacing above the table */
+}
+
+.contact th, .contact td {
+  border: 1px solid #ddd; /* Light border for table cells */
+  padding: 8px;
+  text-align: left; /* Align text to the left */
+}
+
+.contact th {
+  background-color: #f2f2f2; /* Light gray background for table header */
+  font-weight: bold; /* Make header text bold */
+}
+
+/* Add some spacing below the table */
+.contact table + p {
+  margin-top: 20px;
+}
+
+/* Optional: Add hover effect to table rows */
+.contact tr:hover {
+  background-color: #f5f5f5;
+}/* Home.css */
+.hero {
+  /* ... other styles ... */
+}
+
+.hero-content {
+  /* ... other styles ... */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-row-1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.hero-row-2 {
+  display: flex;
+  align-items: flex-start; /* Align items to the top of the container */
+  gap: 20px;
+}
+
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.hero-image {
+  max-width: 250px;
+  margin-bottom: 10px;
+}
+
+.hero-version, .hero-size {
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.hero-right {
+  flex: 1; /* Allows the right side to take up available space */
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center; /* Center the buttons horizontally */
+  gap: 20px; /* Increased gap between buttons */
+  margin-top: 20px;
+}
+
+.download-button, .download-jeeto-button {
+  padding: 15px 30px; /* Increased padding */
+  font-size: 1.2em; /* Increased font size */
+  border: none;
+  border-radius: 8px; /* More rounded corners */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Add a transition for hover effect */
+}
+
+.download-button {
+  background-color: #007bff;
+  color: white;
+}
+
+.download-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.download-jeeto-button {
+  background-color: #28a745;
+  color: white;
+}
+
+.download-jeeto-button:hover {
+  background-color: #1e7e34; /* Darker green on hover */
+}
+
+@media (max-width: 768px) {
+  .hero-row-2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-right {
+    text-align: center;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* About Section */
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+  padding: 20px;
+  background: linear-gradient(to bottom right, #e8f5e9, #ffffff); /* Very light green to white gradient */
+}
+
+.about-content {
+  width: 80%;
+  max-width: 900px;
+  text-align: center;
+}
+
+.game-info-table {
+  display: inline-block;
+  margin: 0 auto;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 2px solid #4caf50; /* Green border */
+  border-radius: 12px; /* More rounded corners */
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Softer, more diffuse shadow */
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out; /* Transition for box-shadow too */
+  background: linear-gradient(to bottom, #ffffff, #f1f8e9); /* Very light green gradient for the table */
+}
+
+.game-info-table:hover {
+  transform: translateY(-8px); /* More pronounced lift */
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2); /* More prominent shadow on hover */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 18px 22px; /* Increased padding */
+  text-align: left;
+  border: none;
+  background-color: transparent;
+  font-weight: normal;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+th {
+  font-weight: 600;
+  color: #ffffff;
+  background: linear-gradient(to right, #388e3c, #4caf50); /* Green gradient for header */
+  text-transform: uppercase;
+  letter-spacing: 1px; /* Slightly increased letter spacing */
+}
+
+tr:nth-child(even) {
+  background-color: rgba(76, 175, 80, 0.05); /* Very subtle green for even rows */
+}
+
+tr:hover {
+  background-color: rgba(76, 175, 80, 0.1); /* Light green hover with transparency */
+  color: #2e7d32; /* Darker green text on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .about-content {
+      width: 95%;
+  }
+
+  .game-info-table {
+      display: block;
+      width: 95%;
+      margin: 10px auto;
+      border-radius: 10px; /* Slightly less rounded on mobile */
+  }
+
+  th, td {
+      display: block;
+      width: 100%;
+      box-sizing: border-box;
+      padding: 12px 16px; /* Adjusted padding */
+  }
+
+  th {
+      text-align: left;
+  }
+}
+
+/* Contact Section */
+.contact {
+  padding: 20px; /* Adjust padding as needed */
+  background-color: #f0f0f0; /* Example background color */
+}
+
+.contact-content {
+  max-width: 900px; /* Adjust max width as needed */
+  margin: 0 auto; /* Center the content */
+}
+
+.contact h2 {
+  color: #333; /* Example heading color */
+  margin-bottom: 10px; /* Adjust margin as needed */
+}
+
+.contact p {
+  color: #666; /* Example paragraph color */
+  line-height: 1.6; /* Improve readability */
+  margin-bottom: 15px; /* Adjust margin as needed */
+}
+
+/* Style for lists (if you use any) */
+.contact ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+.contact li {
+  margin-bottom: 5px;
+}
+
+/* Example styling for a button (if you have one) */
+.contact button {
+  background-color: #007bff; /* Example button color */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact button:hover {
+  background-color: #0056b3; /* Darker color on hover */
+}
+
+/* Responsive adjustments (example) */
+@media (max-width: 768px) {
+  .contact-content {
+      padding: 10px;
+  }
+}
+
+/* Style the table for rebate ratios */
+.contact table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px; /* Add some spacing above the table */
+}
+
+.contact th, .contact td {
+  border: 1px solid #ddd; /* Light border for table cells */
+  padding: 8px;
+  text-align: left; /* Align text to the left */
+}
+
+.contact th {
+  background-color: #f2f2f2; /* Light gray background for table header */
+  font-weight: bold; /* Make header text bold */
+}
+
+/* Add some spacing below the table */
+.contact table + p {
+  margin-top: 20px;
+}
+
+/* Optional: Add hover effect to table rows */
+.contact tr:hover {
+  background-color: #f5f5f5;
+}
