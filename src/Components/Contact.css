@@ -69,7 +69,7 @@
 }
 
 .social-icon {
-  font-size: 4.5rem;
+  font-size: 3rem;
   margin: 0 10px;
   color: #333;
   transition: color 0.3s ease;
@@ -146,6 +146,6 @@
 /* Large screens (desktops) */
 @media (min-width: 1200px) {
   .contain-card {
-    max-width: 800px;
+    max-width: 1000px;
   }
 }
