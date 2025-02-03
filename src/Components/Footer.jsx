@@ -11,7 +11,9 @@ const Footer = () => {
 
       <footer className="footer">
         <div className="footer-content">
-          <p>© 2025 - 92PKRGame.com | Best Card and Slot Game in Pakistan</p>
+          <p>
+            © 2025 - <a href="https://92pkrgame.com" className="footer-link">92PKRGame.com</a> | Best Card and Slot Game in Pakistan
+          </p>
         </div>
 
         <div className="whatsapp-icon">
@@ -30,3 +32,4 @@ const Footer = () => {
 };
 
 export default Footer;
+

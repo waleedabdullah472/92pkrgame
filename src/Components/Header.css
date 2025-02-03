@@ -12,7 +12,8 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 15px 30px;  /* Increased padding */
-    background-color: #18b660;  /* Black background */
+    background: linear-gradient( #046630, #84c484);
+
     color: white;
     position: sticky;
     top: 0;
@@ -75,7 +76,7 @@ body {
     right: -300px;
     width: 250px;
     height: 50%;
-    background-color: #333;  /* Darker sidebar color */
+    background: linear-gradient( #046630, #84c484); /* Darker sidebar color */
     transition: left 0.3s ease, transform 0.3s ease;
     display: flex;
     flex-direction: column;

@@ -1,10 +1,9 @@
-/* General Footer Styles */
+
 .footer {
     position: relative; /* Change from fixed to relative */
     bottom: 0;
     left: 0;
-   
-    background-color: #18b660; /* Green background */
+    background: linear-gradient( #046630, #489e48);
     padding: 15px 30px;
     display: flex;
     justify-content: space-between; /* Space between text and icon */
@@ -12,12 +11,30 @@
     animation: fadeIn 1s ease-out;
 }
 
-/* Center the text and align the WhatsApp button to the right */
+
 .footer-content {
     display: flex;
     justify-content: center; /* Center text horizontally */
     align-items: center;
     flex-grow: 1; /* Make the content take up the available space */
+}
+
+/* Style for the paragraph text */
+.footer-content p {
+    color: white; /* White text color */
+    margin: 0;
+    font-size: 14px;
+}
+
+/* Link inside footer */
+.footer-link {
+    color: #007bff; /* Blue link color */
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.footer-link:hover {
+    text-decoration: underline; /* Add underline on hover */
 }
 
 /* WhatsApp button style */

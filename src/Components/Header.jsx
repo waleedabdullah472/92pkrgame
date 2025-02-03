@@ -38,9 +38,9 @@ const Header = () => {
         ) : (
           <div className="links">
             <a href="/" className="link">92PKR</a>
-            <a href="/about" className="link">About Us</a>
-            <a href="/contact" className="link">Contact Us</a>
-            <a href="/privacy" className="link">Privacy Policy</a>
+            <a href="/about" className="link">About</a>
+            <a href="/contact" className="link">Contact</a>
+            <a href="/privacy" className="link">Privacy</a>
           </div>
         )}
       </div>
@@ -49,9 +49,9 @@ const Header = () => {
       <div className={`sidebar ${isSidebarOpen ? "open" : ""}`}>
         <div className="sidebar-content">
           <a href="/" className="link" onClick={() => setIsSidebarOpen(false)}>92PKR</a>
-          <a href="/about" className="link" onClick={() => setIsSidebarOpen(false)}>About Us</a>
-          <a href="/contact" className="link" onClick={() => setIsSidebarOpen(false)}>Contact Us</a>
-          <a href="/privacy" className="link" onClick={() => setIsSidebarOpen(false)}>Privacy Policy</a>
+          <a href="/about" className="link" onClick={() => setIsSidebarOpen(false)}>About</a>
+          <a href="/contact" className="link" onClick={() => setIsSidebarOpen(false)}>Contact</a>
+          <a href="/privacy" className="link" onClick={() => setIsSidebarOpen(false)}>Privacy</a>
         </div>
       </div>
     </header>
