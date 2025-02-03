@@ -28,7 +28,9 @@ const Header = () => {
     <header className="header">
       {/* Left side with logo */}
       <div className="header-left">
+      <a href="https://92PKRGame.com">
         <img src="pkr.webp" alt="Logo" className="logo" />
+        </a>
       </div>
 
       {/* Right side with icon in mobile view */}
