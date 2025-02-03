@@ -6,8 +6,8 @@ const PrivacyPolicy = () => {
     <main className="main-content">
       
       <div className="content-card">
-<h1>Privacy Policy</h1>
-<h2>Who we are</h2>
+<h2>Privacy Policy</h2>
+
 <p>Our website address is: <a href="http://92pkrgame.com">http://92pkrgame.com</a>.</p>
 
 <h2>Comments</h2>

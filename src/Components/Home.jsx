@@ -14,7 +14,10 @@ const Home = () => {
           </div>
 
           <div className="hero-left">
-            <img src="./pkr.webp" alt="92 PKR Game Logo" className="hero-image" />
+          <a href="https://92PKRGame.com">
+  <img src="./pkr.webp" alt="92 PKR Game Logo" className="hero-image" />
+</a>
+
             <div className="hero-version">
               Version: 2.2
             </div>
@@ -89,7 +92,6 @@ const Home = () => {
 
       {/* Main Content */}
      
-<h1>Home</h1>
 <h2>What is 92 Pkr Game in Pakistan 2024?</h2>
 <p> <a href="http://92pkrgame.com">92 pkr game</a> is an online multiplayer card game in Pakistan that allows players to participate in various rounds of gaming and potentially win money. Players pay a small entry fee of 92 rupees to join each round, with the chance to earn more money depending on how well they play. The game is a combination of strategy, skill, and luck, which makes it appealing to a wide range of people. Unlike traditional casino games that rely heavily on chance, it requires players to use their decision-making abilities and experience to succeed.<br></br>
 

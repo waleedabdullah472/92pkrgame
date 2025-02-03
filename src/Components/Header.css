@@ -14,7 +14,7 @@ body {
     padding: 15px 30px;  /* Increased padding */
     background: linear-gradient( #046630, #84c484);
 
-    color: white;
+    color: rgb(219, 196, 196);
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -42,7 +42,7 @@ body {
   }
   
   .header-right .link {
-    color: rgb(3, 1, 1);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 20px;
     padding: 8px 15px;

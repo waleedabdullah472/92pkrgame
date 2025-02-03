@@ -14,7 +14,7 @@ const Contact = () => {
   return (
     <div className={`contact-container ${isVisible ? 'fade-in' : ''}`}>
       <div className="contain-card">
-        <h1>Contact Us</h1>
+        <h2>Contact Us</h2>
         <h4>Get in Touch with <a href="http://92pkrgame.com" target="_blank" rel="noopener noreferrer">92 PKR Game</a></h4> {/* Added target and rel */}
 
         <p>We’d love to hear from you! Whether you have a question, feedback, or need assistance with your account, feel free to reach out to us.</p>

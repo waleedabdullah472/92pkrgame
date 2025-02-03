@@ -2,7 +2,6 @@
 .main-content {
   padding: 20px;
   background-color: #f4f4f4;
-
   font-family: Arial, sans-serif;
 }
 
@@ -56,8 +55,6 @@
 
 .download-button, 
 .download-jeeto-button {
-  background-color: blue;
-  color: white;
   padding: 10px 20px;
   text-decoration: none;
   border-radius: 5px;
@@ -66,9 +63,25 @@
   display: inline-block; 
 }
 
-.download-button:hover, 
+/* Modify the button styles */
+.download-button {
+  background-color: green; /* Set green color for this button */
+  color: white;
+}
+
+.download-jeeto-button {
+  background-color: yellow; /* Set yellow color for this button */
+  color: white;
+}
+
+/* Hover effect for both buttons */
+.download-button:hover {
+  background-color: #005f00; /* Darker green on hover */
+  transform: translateY(-2px);
+}
+
 .download-jeeto-button:hover {
-  background-color: #1e63b6; /* Slightly darker blue on hover */
+  background-color: #e6c300; /* Darker yellow on hover */
   transform: translateY(-2px);
 }
 
@@ -133,7 +146,7 @@ h1 {
 h2 {
   text-align: center;
   background: linear-gradient( #046630, #84c484);
-  color: white;
+  color: rgb(7, 0, 0);
   padding: 10px;
   font-size: 30px;
   margin: 20px 0;
@@ -141,7 +154,13 @@ h2 {
 }
 
 h3 {
-
+  text-align: center;
+  background: linear-gradient( #e60d0d, #84c484);
+  color: white;
+  padding: 10px;
+  font-size: 30px;
+  margin: 20px 0;
+  border-radius: 5px;
 }
 
 /* Style for P - Centered and increased font size */
@@ -234,7 +253,6 @@ p {
   .game-info-table {
     width: 47%;
     margin: 0 auto;
-   
   }
 
   .download-button, 
