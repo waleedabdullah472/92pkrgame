@@ -22,7 +22,7 @@ const Contact = () => {
         <div className="contact-info"> {/* Container for contact details */}
           <div className="contact-item">
             <FontAwesomeIcon icon={faPhone} className="contact-icon" />
-            <a href="tel:+11234567890">+1 (123) 456-7890</a> {/* Example phone number */}
+            <a href="">+92 304 6665611</a> {/* Example phone number */}
           </div>
           <div className="contact-item">
             <FontAwesomeIcon icon={faEnvelope} className="contact-icon" />

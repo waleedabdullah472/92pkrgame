@@ -18,7 +18,7 @@ const Footer = () => {
 
         <div className="whatsapp-icon">
           <a
-            href="https://wa.me/923000000000"
+            href="https://wa.me/923046665611"
             target="_blank"
             rel="noopener noreferrer"
             className="whatsapp-button"
